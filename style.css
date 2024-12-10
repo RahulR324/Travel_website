@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-transform: capitalize;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url("img2.jpg") no-repeat center center/cover;
+    height: 600px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+#home button{
+    color:black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    text-transform: capitalize;
+    background-color: gold;
+    border: 2px solid green;
+    border-radius: 2px;
+    width: 90px;
+}
+
+#home button:hover{
+    background-color: green;
+    color: white;
+}
+
+.about h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+  .service-grid {
+    background: #fcfcfc;
+}
+    .service-title h4 {
+    position: relative;
+    display: inline-block;
+}
+.service-icon {
+    position: relative;
+}
+.service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+}
+.about-info-text h2 {
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+}
+.about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+      position: relative;
+}
+.about-content p {
+    margin-bottom: 0;
+}
+.about-info-text a {
+    margin-bottom: 20px;
+      position: relative;
+}
+.service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+      position: relative;
+}
+
+.service-wrap p{
+      position: relative;
+}
+
+.service-wrap:hover {
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+
+.service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+}
+
+.service-wrap:hover h4,.service-wrap:hover p{
+    color: #fff;
+}
+.service-wrap h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+}
+.service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
+
+}
+
+
+/*form*/
+.booking{ 
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.bcontent{
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+   width:700px;
+   height: 1350px;
+   color: white;
+}
+
+.form-title{
+   padding:10px 40px 0px;
+}
+form{
+   padding:0px 40px;
+}
+form label{
+  margin: 3px;
+}
+input[type=text], [type=email]{
+   border: none;
+   border-bottom: 1px solid black;
+   outline:none;
+   width:100%;
+   margin: 8px 0;
+   padding:10px 0;
+}
+input[type=number]{
+   border: none;
+   border-bottom: 1px solid black;
+   outline:none;
+   margin: 8px 0;
+   padding:5px 0;
+}
+select{
+   border: none;
+   border-bottom: 1px solid black;
+   outline:none;
+   margin: 8px 0;
+   padding:5px 0;
+   width:50%;
+}
+.beside{
+   display:flex;  
+   justify-content: space-between;
+   margin: 2px;
+}
+button{
+   color:#ffffff;
+   background-color: #4caf50;
+   height:40px;
+   width:25%;
+   margin-top:15px;
+   cursor: pointer;
+   border:none;
+   border-radius:2%;
+   outline:none;
+   text-align:center;
+   font-size:16px;
+   text-decoration:none;
+   transition-duration:0.4s;
+}
+button:hover{
+   background-color:#f57004;
+}
+
+
+/*footer*/
+
+.main{
+  height: 50vh;
+  color: white;
+}
+.service-wrap ul {
+ padding-top: 1px;
+}
+.hover-effect1 ul li {
+ display: inline-block;
+}
